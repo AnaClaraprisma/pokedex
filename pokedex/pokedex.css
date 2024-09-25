@@ -6,10 +6,22 @@
     box-sizing: border-box;
 }
 
-.poke {
-   
+body {
+    display: flex;
     align-items: center;
+    flex-direction: column;
+}
 
+.poke {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .pokemom {
@@ -29,21 +41,23 @@
     box-shadow: 0px 21px 25.9px -14px rgba(0, 0, 0, 0.10);
     width: 344px;
     height: 196px;
+    padding: 1rem;
 }
 
 .grama {
-    border-radius: 50px;
+    border-radius: 10px;
     background: #BFC66B;
 }
 
 .veneno {
-    border-radius: 50px;
+    border-radius: 10px;
     background: #b97fc9
 }
 
 .cx1 {
     display: flex;
-    border: blue solid;
+    justify-content: space-between;
+    padding-bottom: 1rem;
 }
 
 .cabeca {
@@ -53,15 +67,23 @@
     font-family: "Kumbh Sans"
 }
 
+.cabeca span {
+    padding: 0.3rem;
+}
+
 .cx2 {
     display: flex;
-    border: blue solid;
+    gap: 2rem;
 }
 
 .information {
     color: #FFF;
     font-family: "Kumbh Sans";
     font-size: 13px;
+}
+
+.information h1 {
+    padding-bottom: 0.5rem;
 }
 
 .bulbasaur {
