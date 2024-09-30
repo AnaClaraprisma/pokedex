@@ -21,7 +21,8 @@ function carregarPokemon(){
 <div class="cx1">
      <section class="cabeca">
      ${pokemonData.types.map(typeInfo => `
-     <span class="grama">${pkmType}</span>`)}
+     <span class="${typeInfo.type.name}__type">${typeInfo.type.name}</span>
+     `).join(" ")}
    
     <span class="veneno">poison</span>
 </section>
